@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- не забыть отключить -->
+    <meta name="robots" content="none" />
+    <!-- описание страницы -->
+    <meta name="Description" content="filter test"/>
+    <title>filter test</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,regular,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:regular,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+
+<body>
+    <div class="_body-wrapper">
+        
+        <header class="header index__header">
+    <div class="header__wrapper _wrapper">
+        <div class="header__body">
+            <!-- логотип -->
+            <a href="index.html" class="header__logo">
+                <img src="./img/logo.svg" alt="bussines">
+            </a>
+            <!-- меню -->
+            <div class="header__menu menu">
+                <nav class="menu__body">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#" class="menu__link"><span>Investors</span></a></li>
+                        <li class="menu__item"><a href="#" class="menu__link"><span>About Us</span></a></li>
+                        <li class="menu__item"><a href="#" class="menu__link"><span>Our Services</span></a></li>
+                        <li class="menu__item"><a href="#" class="menu__link"><span>News & Media</span></a></li>
+                        <li class="menu__item"><a href="#" class="menu__link"><span>Career</span></a></li>
+                        <li class="menu__item"><a href="#" class="menu__link menu__link--deco"><span>Our
+                                    Locations</span></a></li>
+                    </ul>
+                    <!-- иконка бургера -->
+                    <button type="button" class="menu__icon icon-menu" aria-expanded="false" aria-label="toggle navigation">
+                        <span></span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+        <div class="mainblock">
+            <div class="mainblock__wrapper _wrapper">
+                <div class="mainblock__top">
+                    <div class="mainblock__title">
+                        Building a high growth, high quality debt management services company
+                    </div>
+                </div>
+                <div class="mainblock__body">
+                    <p class="mainblock__text _text">
+                        We’re a group of companies within the credit management services industry. We are primarily
+                        focusing on large and high growth NPL markets, and have operations in Spain, Italy, Germany,
+                        Norway and Sweden. We have an ambitious Pan-European growth strategy and are continuously
+                        exploring new markets in Europe.
+                    </p>
+                    <a href="#" class="mainblock__link _btn">Annual General Meeting 2017</a>
+                </div>
+            </div>
+        </div>
+
+        <section class="investor">
+            <div class="investor__wrapper _wrapper">
+                <h2 class="investor__title _title">Investor relations</h2>
+                <p class="investor__text _text">
+                    We’re Investor Relations team is striving to serve all shareholders and potential investors by
+                    providing consistent, open and timely disclosure of relevant information.
+                </p>
+                <div class="investor__items">
+                    <div class="investor__item item-inv">
+                        <div class="item-inv__value">77.95</div>
+                        <div class="item-inv__label">Share Price(NOK)</div>
+                    </div>
+                    <div class="investor__item item-inv">
+                        <div class="item-inv__value">2.26</div>
+                        <div class="item-inv__label">Last Change</div>
+                    </div>
+                    <div class="investor__item investor__item--l item-inv">
+                        <div class="item-inv__value">9,587,985</div>
+                        <div class="item-inv__label">Volume (thousands)</div>
+                    </div>
+                    <div class="investor__item item-inv">
+                        <div class="item-inv__value">AXA</div>
+                        <div class="item-inv__label">Ticker (Oslo Bors)</div>
+                    </div>
+                    <div class="investor__item item-inv">
+                        <div class="item-inv__value">4.15%</div>
+                        <div class="item-inv__label">Market Cap (NOK&nbsp;M)</div>
+                    </div>
+                </div>
+                <a href="#" class="investor__link _btn">Read more</a>
+            </div>
+        </section>
+
+        <section class="news">
+            <div class="news__wrapper _wrapper">
+                <div class="news__header">
+                    <h2 class="news__title _title">News & media</h2>
+                    <div class="news__filter filter-news">
+                        <ul class="filter-news__list">
+                            <li><a href="#" tabindex="0" data-filter-name="news" class="filter-news__item"><span>News</span></a></li>
+                            <li><a href="#" tabindex="0" data-filter-name="pr" class="filter-news__item">Press
+                                    Release</a></li>
+                            <li><a href="#" tabindex="0" data-filter-name="all"
+                                    class="filter-news__item _active">All</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="news__items">
+                    <div data-filter="pr" class="news__item item-news">
+                        <div class="item-news__top">
+                            <div class="item-news__image">
+                                <picture>
+                                    <source srcset="./img/03.webp" type="image/webp">
+                                    <img src="./img/01.jpg" alt="pic03">
+                                </picture>
+                            </div>
+                            <div class="item-news__category">Press release</div>
+                            <div class="item-news__title">
+                                Increases existing loan facilities
+                            </div>
+                        </div>
+                        <div class="item-news__body">
+                            <p class="item-news__text">
+                                On May 5, 2017 the 4th tranche under the Recurring Credit Facility which has with
+                                DNB Bank ASA and Nordea Bank AS was made available to the company.
+                            </p>
+                            <a href="#" class="item-news__link">Read more</a>
+                        </div>
+                    </div>
+
+                    <div data-filter="news" class="news__item item-news">
+                        <div class="item-news__top">
+                            <div class="item-news__image">
+                                <picture>
+                                    <source srcset="./img/02.webp" type="image/webp">
+                                    <img src="./img/02.jpg" alt="pic02">
+                                </picture>
+                            </div>
+                            <div class="item-news__category">News</div>
+                            <div class="item-news__title">
+                                acquires another primary portfolio in spain
+                            </div>
+                        </div>
+                        <div class="item-news__body">
+                            <p class="item-news__text">
+                                On May 5, 2017 the 4th tranche under the Recurring Credit Facility which has with
+                                DNB
+                                Bank ASA and Nordea Bank AS was made available to the company.
+                            </p>
+                            <a href="#" class="item-news__link">Read more</a>
+                        </div>
+                    </div>
+
+
+                    <div data-filter="pr" class="news__item item-news">
+                        <div class="item-news__top">
+                            <div class="item-news__image">
+                                <picture>
+                                    <source srcset="./img/01.webp" type="image/webp">
+                                    <img src="./img/03.jpg" alt="pic01">
+                                </picture>
+                            </div>
+                            <div class="item-news__category">Press release</div>
+                            <div class="item-news__title">
+                                increases existing loan facilities
+                            </div>
+                        </div>
+                        <div class="item-news__body">
+                            <p class="item-news__text">
+                                On May 5, 2017 the 4th tranche under the Recurring Credit Facility which has with
+                                DNB
+                                Bank ASA and Nordea Bank AS was made available to the company.
+                            </p>
+                            <a href="#" class="item-news__link">Read more</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="map">
+            <div class="map__wrapper _wrapper">
+                <h2 class="map__title _title">
+                    Learn more about Us in your country
+                </h2>
+                <div class="map__body">
+                    <iframe title="google map"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d35964.82653645583!2d37.38017824999999!3d55.7098193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1635524807235!5m2!1sru!2sru"
+                        allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer index__footer">
+    <div class="footer__wrapper _wrapper">
+        <div class="footer__body">
+            <div class="footer__left">
+                <p class="footer__copy">Business 2017</p>
+            </div>
+            <div class="footer__right">
+                <a href="#" class="footer__link">Terms & Conditions</a>
+                <a href="#" class="footer__link">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+</footer>
+    </div>
+    
+    <script src="./js/script.min.js"></script>
+</body>
+
+</html>
